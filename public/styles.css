@@ -1,0 +1,49 @@
+#root{
+    display: grid;
+    /* grid-template-columns: 200px 2fr 200px; */
+    gap: 5px;
+    height: 100vh;
+    grid-column: 7/7;
+    background: #94C9FA;  
+    border-style:dotted white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+  background-color: cadetblue;
+  color:black;
+  align-content: space-evenly;
+}
+
+img{
+  display: flexbox;
+  height: 5000px;
+  width: 600px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-control{
+  align-items: center;
+  box-orient:left ;
+}
+.thead-dark{
+  background-color: aqua;
+}
+
+.flexColumn{
+  display:flex;
+  flex-direction: column;
+}
+.flexColumn2{
+  display:flex;
+  flex-direction: column;
+}
+.navbar{
+  display: flexbox;
+  -ms-flex-align: stretch;
+}
+
+.navbar navbar-expand-lg navbar-light bg-light{
+  background-color: brown;
+}
